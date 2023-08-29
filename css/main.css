@@ -1,0 +1,138 @@
+header{
+    width: 100%;
+    height: 7rem;
+}
+
+.header__navbar{
+    margin: auto;
+    width: 70.813rem;
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.navbar__logo-and-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-and-name__logo{
+    padding-right: 0.5rem;
+}
+
+
+.navbar__navigation{
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar__navigation > a {
+    color: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar__navigation > a:hover {
+    color: blue;
+}
+
+.navbar__navigation > a:active {
+    color: blue;
+}
+
+.navbar__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar__menu-title{
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 1.75rem;
+}
+
+.poster1{
+    height: 38.5rem;
+    background-image: url("../images/poster_bg1_shade.png"), url("../images/poster_bg1.png");
+    width: 90rem;
+    margin: auto;
+    vertical-align: middle;
+    font-family: Poppins, serif;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster1__top{
+    width: 34.35rem;
+}
+
+.poster1__large-text{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.poster1__small-text{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.poster1__bottom{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poster1__discover-button{
+    background-color: #1E47FF;
+    padding: 1.2rem;
+    font-family: Inter, serif;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+}
+
+.poster1__discover-button:first-child{
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.poster1__phone-number{
+    font-family: Inter, serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    color:white;
+}
+
+.three-textboxes-1{
+}
+
+.three-textboxes-1__boxes{
+    margin: auto;
+    width: 70.813rem;
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.boxes__box1{
+
+}
