@@ -120,6 +120,9 @@ header{
 }
 
 .three-textboxes-1{
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+    display: block;
 }
 
 .three-textboxes-1__boxes{
@@ -127,12 +130,212 @@ header{
     width: 70.813rem;
     display: flex;
     flex-direction: row;
-    height: 7rem;
     align-items: center;
     justify-content: space-between;
     flex-basis: auto;
+    gap: 1.688rem;
+    height: max-content;
 }
 
 .boxes__box1{
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1E47FF;
+    border-width: 1px;
+}
+
+.box1__large-text{
+    font-family: Poppins, serif;
+    font-weight: 600;
+    font-min-size: 1.75rem;
+    line-height: 2.424rem;
+    text-align: center;
+}
+
+.box1__small-text{
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-min-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #666666;
+}
+
+.two-blocks-1{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.two-blocks-1__right-block1{
+    max-width: 30.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two-blocks-1__text-1{
+    font-family: Poppins, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #1B3868;
+}
+
+.two-blocks-1__text-2{
+    font-family: Poppins, serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.two-blocks-1__text-3{
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.right-block1__button{
+    border-radius: 5px;
+    font-family: Poppins, serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    border-width: inherit;
+    color: white;
+    background-color: #1E47FF;
+    width: 10.125rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    text-decoration: none;
+}
+
+.three-textboxes-2{
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+    display: flex;
+    gap: 4.813rem;
+    flex-direction: column;
+    height: max-content;
+}
+
+.three-textboxes-2__top-half{
+    text-align: center;
+    margin: auto;
+    max-width: 45rem;
+}
+
+.three-textboxes-2__bottom-half{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: auto;
+    gap: 2.25rem;
+}
+
+.three-textboxes-2__bottom-half-box{
+    max-width: 22.563rem;
+}
+
+.three-textboxes-2__bottom-text{
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    word-break: break-word;
+}
+
+.poster2{
+    height: 30.625rem;
+    background-image: url("../images/poster_bg2_shade.png"), url("../images/poster_bg2.png");
+    width: 90rem;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.three-textboxes-3{
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+    display: flex;
+    gap: 4.813rem;
+    flex-direction: column;
+    height: max-content;
+    text-align: center;
+}
+
+.three-textboxes-3 > p{
+    font-size: 3.25rem;
+    font-family: DM Sans, serif;
+    font-weight: bold;
+}
+
+.three-textboxes-3__textboxes-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5.361rem;
+    width: max-content;
+    margin: auto;
+}
+
+.three-textboxes-3__textbox{
+    width: 19rem;
+    text-align: left;
+}
+
+.textbox3__text-large{
+    font-family: DM Sans, serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.textbox3__text-small{
+    font-family: DM Sans, serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #797979;
+}
+
+.textbox3__link{
+    color: #2162F0;
+    text-decoration: none;
+    font-family: DM Sans, serif;
+    font-weight: 500;
+    font-size: 1rem;
+    height: max-content;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.poster3{
+    height: 39.25rem;
+    background-image: url("../images/poster_bg3.png");
+    width: 90rem;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.latest-news{
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+.latest-news__box-container{
+
+}
+
+.box2{
 
 }
