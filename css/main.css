@@ -10,6 +10,13 @@
     margin: auto;
 }
 
+/*Для центровки логотипа и названия компании*/
+.company-name-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.426rem;
+}
+
 /*Ссылки в центре шапки*/
 .link-bar{
     display: flex;
