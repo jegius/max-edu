@@ -229,7 +229,10 @@
 
 /*БЛОК 5: Постер с затенением поверху*/
 .poster2{
-
+    background-image: url("../img/poster_bg2_shade.png"), url("../img/poster_bg2.png");
+    width: 90rem;
+    height: 30.625rem;
+    margin: auto;
 }
 
 /*КОНЕЦ БЛОКА 5*/
