@@ -244,6 +244,24 @@
     padding-top: 11.366rem;
 }
 
+/*КОНЕЦ БЛОКА 6*/
+
+/*БЛОК 7: Latest News*/
+.latest-news{
+    width: 90rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+}
+
+.latest-news_cards{
+    display: flex;
+    gap: 3.688rem;
+    align-items: center;
+    justify-items: center;
+}
+
 /*Нижняя часть страницы.*/
 .footer-main{
 
