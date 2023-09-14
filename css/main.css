@@ -237,6 +237,13 @@
 
 /*КОНЕЦ БЛОКА 5*/
 
+/*БЛОК 6: "Satisfied Customers"*/
+.testimonials{
+    width: fit-content;
+    margin: auto;
+    padding-top: 11.366rem;
+}
+
 /*Нижняя часть страницы.*/
 .footer-main{
 
