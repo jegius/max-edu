@@ -240,6 +240,7 @@
     width: fit-content;
     margin: auto;
     padding-top: 11.366rem;
+    padding-bottom: 7.75rem;
 }
 
 /*КОНЕЦ БЛОКА 6*/
@@ -250,6 +251,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 4.5rem;
     margin: auto;
 }
@@ -266,6 +268,38 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
+}
+
+.card-news-1{
+    position: relative;
+    background-image: url("../img/blog_post_1.png");
+    width: 23.75rem;
+    height:14.25rem;
+}
+
+.news-category{
+    min-width: 4.5rem;
+    height: 1.75rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(22, 19, 62, 0.45);
+    left: 1.313rem;
+    top: 1.313rem;
+    border-radius: 0.313rem;
+}
+
+.news-category__text{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.author-photo{
+    width: 1.313rem;
+    height: 1.313rem;
 }
 
 /*Нижняя часть страницы.*/
@@ -298,12 +332,18 @@
 /*Заголовок 3 - шрифт размером в 16 пикселей; используется как заголовок в составе блока 3, но также годится и для других.*/
 .headline3{
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     line-height: 2rem;
     text-transform: uppercase;
     color: rgba(27, 56, 104, 1);
+}
+
+.headline4{
+    font-family: 'Merriweather';
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
 }
 
 /*Модификатор для текста - белый цвет*/
@@ -322,6 +362,10 @@
 
 .text_darkblue{
     color: #1B3868;
+}
+
+.text_blue{
+    color: #1E47FF;
 }
 
 /*Текст, тип 1: шрифт Интер, размер 1 рем, вес 400, высота строки 180%.*/
@@ -347,6 +391,15 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 2rem;
+}
+
+/*Малый текст, тип 1.*/
+
+.small-text1{
+    font-family: Barlow;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75rem;
 }
 
 /*Декоративный элемент: синий кружок для размещения в нём значка*/
