@@ -116,7 +116,6 @@
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 0.875rem;
-    letter-spacing: 0em;
     text-align: center;
     align-self: center;
 }
@@ -176,7 +175,6 @@
     font-size: 3rem;
     font-weight: 600;
     line-height: 4rem;
-    letter-spacing: 0px;
     margin: 0;
 }
 
@@ -191,7 +189,6 @@
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5rem;
-    letter-spacing: 0px;
     text-align: center;
 
 }
@@ -253,13 +250,21 @@
     display: flex;
     flex-direction: column;
     gap: 4.5rem;
+    margin: auto;
 }
 
-.latest-news_cards{
+.latest-news__cards{
     display: flex;
     gap: 3.688rem;
     align-items: center;
     justify-items: center;
+}
+
+.latest-news__card{
+    width: 23.813rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Нижняя часть страницы.*/
@@ -271,12 +276,11 @@
 
 /*Заголовок 1 - самые крупные буквы на странице, толстые, с 50 пикселей размером*/
 .headline1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 3.125rem;
     line-height: 138.5%;
-    text-align: center;
     margin: 0;
 }
 
@@ -284,13 +288,10 @@
 
 /*Заголовок 2 - шрифт размером в 28 пикселей/24 rem; используется как заголовок в небольших блоках*/
 .headline2{
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 1.75rem;
     font-weight: 600;
     line-height: 2.438rem;
-    letter-spacing: 0em;
-    text-align: center;
-
 }
 
 /*Заголовок 3 - шрифт размером в 16 пикселей; используется как заголовок в составе блока 3, но также годится и для других.*/
@@ -318,22 +319,25 @@
     color: #6C6C6C;
 }
 
+.text_darkblue{
+    color: #1B3868;
+}
+
 /*Текст, тип 1: шрифт Интер, размер 1 рем, вес 400, высота строки 180%.*/
 .main-text1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 180%;
+    line-height: 1.813rem;
     text-align: center;
 }
 
 .main-text2{
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.813rem;
-    letter-spacing: 0em;
+
     text-align: center;
 }
 
@@ -342,5 +346,16 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 2rem;
-    letter-spacing: 0px;
+}
+
+/*Декоративный элемент: синий кружок для размещения в нём значка*/
+.icon_circle{
+    width: 4.375rem;
+    height: 4.375rem;
+    background-color: #1E47FF;
+    border-color: #1E47FF;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
