@@ -1,3 +1,11 @@
+/*ПЕРЕМЕННЫЕ ДЛЯ ЦВЕТОВ*/
+:root{
+    --color-blue: #1E47FF;
+    --color-almost-black:#333333;
+    --color-dark-blue: #1B3868;
+    --color-gray: #6C6C6C;
+}
+
 /*ШАПКА*/
 
 /*Шапка для страницы*/
@@ -35,7 +43,7 @@
 }
 
 .link-bar__link:hover{
-    color: #1E47FF;
+    color: var(--color-blue);
     text-decoration: underline;
 }
 
@@ -78,7 +86,7 @@
     gap: 0.625rem;
     width: 9.688rem;
     height: 3.125rem;
-    background: #1E47FF;
+    background: var(--color-blue);
     border-radius: 0.313rem;
     border-style: none;
 
@@ -182,7 +190,7 @@
     width: 10.125rem;
     height: 3rem;
     border-style: none;
-    background-color: #1E47FF;
+    background-color: var(--color-blue);
     color: white;
     border-radius: 0.25rem;
     font-family: Poppins;
@@ -302,6 +310,14 @@
     height: 1.313rem;
 }
 
+/*КОНЕЦ БЛОКА 7*/
+
+/*БЛОК 8: "ПРИЗЫВ ДЕЙСТВОВАТЬ"*/
+
+.call-to-action{
+
+}
+
 /*Нижняя часть страницы.*/
 .footer-main{
 
@@ -336,7 +352,7 @@
     font-size: 1rem;
     line-height: 2rem;
     text-transform: uppercase;
-    color: rgba(27, 56, 104, 1);
+    color: var(--color-dark-blue);
 }
 
 .headline4{
@@ -357,15 +373,15 @@
 }
 
 .text_gray{
-    color: #6C6C6C;
+    color: var(--color-gray);
 }
 
 .text_darkblue{
-    color: #1B3868;
+    color: var(--color-dark-blue);
 }
 
 .text_blue{
-    color: #1E47FF;
+    color: var(--color-blue);
 }
 
 /*Текст, тип 1: шрифт Интер, размер 1 рем, вес 400, высота строки 180%.*/
@@ -406,8 +422,8 @@
 .icon_circle{
     width: 4.375rem;
     height: 4.375rem;
-    background-color: #1E47FF;
-    border-color: #1E47FF;
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
     border-radius: 10rem;
     display: flex;
     align-items: center;
