@@ -1,2 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-blue: #1E47FF;
+    --color-dark-blue: #1B3868;
+    --color-gray: #6C6C6C;
+    --color-news-category: rgba(22, 19, 62, 0.36);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+/*Шапка*/
+.header{
+    max-width: 90rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 7rem;
+    margin: auto;
+}
+
+.header__logo{
+    width: 160px;
+    height: 46px;
+    background-image: url("../img/company-logo.png");
+}
+
+.header__links-main{
+    display: flex;
+    justify-content: space-around;
+    gap:3.313rem;
+}
+
+.header__links-link{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--color-black);
+}
+
+.header__links-link:hover{
+    text-decoration: revert !important;
+    color: var(--color-blue);
+}
+
+.header__menu-main{
+    display: flex;
+    gap: 1.563rem;
+}
+
+/*Блок 1*/
+
+.poster1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59)), url("../img/poster1/bg.png");
+    width: 90rem;
+    height: 38.375rem;
+    margin: auto;
+}
+
+.poster1__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 34.375rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.poster1__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.poster1__contact_button{
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-align: center;
+    width: 9.688rem;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    border-style: solid;
+    border-color: var(--color-blue);
+}
+
+.poster1__contact_link{
+    color: var(--color-white);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-decoration: revert;
+}
+
+/*Заголовки*/
+
+.text-title1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 69px;
+}
+
+.text-title2{
+
+}
+
+.text-title3{
+
+}
+
+.text-title4{
+
+}
+
+/*Основной текст и вспомогательные шрифты*/
+
+.text-main1{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+
+}
+
+.text-main2{
+
+}
+
+.text-main3{
+
+}
+
+.text-main4{
+
+}
+
+/*Модификаторы-миксины (для использования в разных блоках)*/
+
+._centered{
+    text-align: center;
+}
+
+._white{
+    color: var(--color-white);
+}
+
+._blue{
+    color: var(--color-blue);
+}
+
+._gray{
+    color: var(--color-gray);
+}
