@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
 
 body{
     --white: #FFFFFF;
@@ -12,9 +13,14 @@ body{
     --black-overlay: linear-gradient(rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59));
     --welcome-section-bg: url("../img/welcome-section/bg.png");
     --features1-border-color: rgba(30, 71, 255, 0.37);
-    --sign1: url("../img/signs/1.png");
-    --sign2: url("../img/signs/2.png");
+    --sign-wrench: url("../img/signs/wrench.png");
+    --sign-something: url("../img/signs/something.png");
     --company-vision-bg: url("../img/company-vision/bg.png");
+    --notebook-bg: url("../img/notebook-image/notebook.png");
+    --sign-pencil: url("../img/signs/pencil.png");
+    --sign-wallet: url("../img/signs/wallet.png");
+    --sign-squares: url("../img/signs/squares.png");
+    --learnmore-icon: url("../img/signs/Arrow.png");
 }
 
 a{
@@ -98,7 +104,7 @@ h1,h2,h3,h4{
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
-    line-height: 0.875rem;
+    line-height: .875rem;
     text-align: center;
     width: 9.688rem;
     height: 3.125rem;
@@ -112,12 +118,12 @@ h1,h2,h3,h4{
     font-family: Inter;
     font-size: 14px;
     font-weight: 600;
-    line-height: 0.875rem;
+    line-height: .875rem;
     text-decoration: revert;
 }
 
 /*Блок 2*/
-.features1{
+.core-wordpress{
     max-width: 90rem;
     display: flex;
     gap: 1.688rem;
@@ -127,12 +133,12 @@ h1,h2,h3,h4{
     padding-bottom: 8.75rem;
 }
 
-.features1__card{
+.core-wordpress__card{
     width: 22.563rem;
     height: 22rem;
     border-style: solid;
     border-width: 1px;
-    border-radius: 0.625rem;
+    border-radius: .625rem;
     border-color: var(--features1-border-color);
     display: flex;
     flex-direction: column;
@@ -140,7 +146,7 @@ h1,h2,h3,h4{
     align-items: center;
 }
 
-.features1__card_sign{
+.core-wordpress__card_sign{
     width: 4.375rem;
     height: 4.375rem;
     background-color: var(--blue);
@@ -156,6 +162,7 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: center;
     gap: 5.275rem;
+    padding-bottom: 8.75rem;
 }
 
 .company-vision__left{
@@ -196,6 +203,103 @@ h1,h2,h3,h4{
     border-color: var(--blue);
 }
 
+/* 4 */
+.it-solutions{
+    min-width: 90rem;
+    min-height: 47.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.it-solutions__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90rem;
+    padding-top: 4.813rem;
+    gap: 2.25rem;
+}
+
+.it-solutions__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 22.563rem;
+    height: fit-content;
+}
+
+/* 5 */
+
+.notebook_image{
+    width: 90rem;
+    height: 30.625rem;
+    background-image: var(--black-overlay), var(--notebook-bg);
+    margin: auto;
+}
+
+/* 6 */
+
+.product-difference{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    margin: auto;
+    min-width: 90rem;
+    min-height: 26.438rem;
+    padding-top: 8.75rem;
+}
+
+.product-difference__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90rem;
+    padding-top: 4.446rem;
+    gap: 5.361rem;
+}
+
+.product-difference__card{
+    display: flex;
+    flex-direction: column;
+    max-width: 17.813rem;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.product-difference__icon{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--blue);
+    border: solid, var(--blue);
+    border-radius: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-difference__learnmore{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2rem;
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.product-difference__learnmore-icon{
+    width: 24px;
+    height: 24px;
+    background-image: var(--learnmore-icon);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*Заголовки*/
 
 .text-title1{
@@ -212,11 +316,19 @@ h1,h2,h3,h4{
 }
 
 .text-title3{
-
+    font-family: 'DM Sans';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 4.231rem;
 }
 
 .text-title4{
-
+    font-family: 'DM Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.953rem;
+    letter-spacing: -0.03em;
+    padding-top: 1rem;
 }
 
 /*Основной текст и вспомогательные шрифты*/
@@ -237,7 +349,11 @@ h1,h2,h3,h4{
 }
 
 .text-main3{
-
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 0px;
 }
 
 .text-main4{
@@ -262,14 +378,26 @@ h1,h2,h3,h4{
     color: var(--gray);
 }
 
-._sign1{
-    background-image: var(--sign1);
+._sign-wrench{
+    background-image: var(--sign-wrench);
 }
 
-._sign2{
-    background-image: var(--sign2);
+._sign-something{
+    background-image: var(--sign-something);
 }
 
 ._limit-17-938rem{
     max-width: 17.938rem;
+}
+
+._sign-wallet{
+    background-image: var(--sign-wallet);
+}
+
+._sign-pencil{
+    background-image: var(--sign-pencil);
+}
+
+._sign-squares{
+    background-image: var(--sign-squares);
 }
