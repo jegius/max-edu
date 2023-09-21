@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 
 body{
     --white: #FFFFFF;
@@ -251,6 +252,7 @@ h1,h2,h3,h4{
     min-width: 90rem;
     min-height: 26.438rem;
     padding-top: 8.75rem;
+    padding-bottom: 8.75rem;
 }
 
 .product-difference__row{
@@ -289,7 +291,7 @@ h1,h2,h3,h4{
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: .25rem;
 }
 
 .product-difference__learnmore-icon{
@@ -298,6 +300,53 @@ h1,h2,h3,h4{
     background-image: var(--learnmore-icon);
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* 7 */
+
+.testimonials{
+    margin: auto;
+    min-width: 90rem;
+    max-width: 90rem;
+    min-height: 39.25rem;
+    background: linear-gradient(left, var(--white) 33%, var(--blue)33%);
+    background: -moz-linear-gradient(left, var(--white) 33%, var(--blue)33%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.testimonials__photo{
+    background-image: url("../img/testimonials/customer.png");
+    width: 31.875rem;
+    height: 30.25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonials__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 46rem;
+    min-height: 39.25rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.testimonials__quote{
+    background-image: url("../img/testimonials/quote.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 46px;
+    margin-top: -7rem;
+}
+
+.testimonials__author{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 /*Заголовки*/
@@ -331,6 +380,13 @@ h1,h2,h3,h4{
     padding-top: 1rem;
 }
 
+.text-title5{
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
 /*Основной текст и вспомогательные шрифты*/
 
 .text-main1{
@@ -357,7 +413,29 @@ h1,h2,h3,h4{
 }
 
 .text-main4{
+    color: white;
+    font-size: 24px;
+    font-family: Merriweather;
+    font-weight: 300;
+    line-height: 2.25rem;
+    max-width: 37.5rem;
+    word-wrap: break-word
+}
 
+.text-testimonials1{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: var(--white);
+}
+
+.text-testimonials2{
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1rem;
+    color: var(--white);
 }
 
 /*Модификаторы (для использования в разных блоках)*/
