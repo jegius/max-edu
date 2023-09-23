@@ -349,6 +349,63 @@ h1,h2,h3,h4{
     gap: .5rem;
 }
 
+/* 8 - доделат */
+.news{
+    width: 90rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+    margin: auto;
+}
+
+.news__row{
+    display: flex;
+    gap: 3.688rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.news__card{
+    width: 23.813rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.news__img{
+    position: relative;
+    background-image: url("../img/blog_post_1.png");
+    width: 23.75rem;
+    height:14.25rem;
+}
+
+.news__category{
+    min-width: 4.5rem;
+    height: 1.75rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(22, 19, 62, 0.45);
+    left: 1.313rem;
+    top: 1.313rem;
+    border-radius: .313rem;
+}
+
+.news__category-name{
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: .875rem;
+    color: white;
+}
+
+.news__author-photo{
+    width: 1.313rem;
+    height: 1.313rem;
+}
+
 /*Заголовки*/
 
 .text-title1{
