@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 body{
     --white: #FFFFFF;
@@ -22,6 +23,10 @@ body{
     --sign-wallet: url("../img/signs/wallet.png");
     --sign-squares: url("../img/signs/squares.png");
     --learnmore-icon: url("../img/signs/Arrow.png");
+    --news-1: url("../img/news/growth.png");
+    --news-2: url("../img/news/math.jpg");
+    --news-3: url("../img/news/deal.jpg");
+    --author: url("../img/news/samokhin.png");
 }
 
 a{
@@ -358,12 +363,14 @@ h1,h2,h3,h4{
     align-items: center;
     gap: 4.5rem;
     margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .news__row{
     display: flex;
     gap: 3.688rem;
-    align-items: center;
+    align-content: center;
     justify-items: center;
 }
 
@@ -372,11 +379,11 @@ h1,h2,h3,h4{
     height: fit-content;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
-.news__img{
+.news__pic{
     position: relative;
-    background-image: url("../img/blog_post_1.png");
     width: 23.75rem;
     height:14.25rem;
 }
@@ -388,7 +395,7 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(22, 19, 62, 0.45);
+    background: rgba(22, 19, 62, .45);
     left: 1.313rem;
     top: 1.313rem;
     border-radius: .313rem;
@@ -401,9 +408,23 @@ h1,h2,h3,h4{
     color: white;
 }
 
+.news__author-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Barlow;
+    font-size: 14px;
+    line-height: 1.75rem;
+    gap: .5rem;
+}
+
 .news__author-photo{
     width: 1.313rem;
     height: 1.313rem;
+    background-image: var(--author);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*Заголовки*/
@@ -442,6 +463,12 @@ h1,h2,h3,h4{
     font-size: 36px;
     line-height: 3rem;
     font-weight: 700;
+}
+
+.text-title6{
+    font-family: Merriweather;
+    font-size: 20px;
+    line-height: 1.875rem;
 }
 
 /*Основной текст и вспомогательные шрифты*/
@@ -535,4 +562,21 @@ h1,h2,h3,h4{
 
 ._sign-squares{
     background-image: var(--sign-squares);
+}
+
+._news-img1{
+    background-image: var(--news-1);
+}
+
+._news-img2{
+    background-image: var(--news-2);
+}
+
+._news-img3{
+    background-image: var(--news-3);
+}
+
+._row{
+    display: flex;
+    flex-direction: row;
 }
