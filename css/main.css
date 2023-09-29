@@ -459,6 +459,36 @@ h1,h2,h3,h4{
     color: var(--white);
 }
 
+.footer{
+    width: 90rem;
+    display: flex;
+    min-height: 27rem;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer__left{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__left-row{}
+
+.footer__right{
+    width: 45rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__right-column{
+    min-width: 9rem;
+    max-width: 9.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 /*Заголовки*/
 
 .text-title1{
@@ -486,7 +516,7 @@ h1,h2,h3,h4{
     font-size: 24px;
     font-weight: 700;
     line-height: 1.953rem;
-    letter-spacing: -0.03em;
+    letter-spacing: -.03em;
     padding-top: 1rem;
 }
 
