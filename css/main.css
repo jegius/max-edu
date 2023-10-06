@@ -4,13 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
-body{
+:root{
     --white: #FFFFFF;
     --black: #000000;
     --blue: #1E47FF;
     --dark-blue: #1B3868;
     --gray: #6C6C6C;
     --color-news-category: rgba(22, 19, 62, 0.36);
+    --color-dark-blue-transparent: rgba(22, 19, 62, .45);
     --company-logo: url("../img/company-logo.png");
     --black-overlay: linear-gradient(rgba(2, 2, 2, 0.59), rgba(2, 2, 2, 0.59));
     --welcome-section-bg: url("../img/welcome-section/bg.png");
@@ -392,7 +393,7 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(22, 19, 62, .45);
+    background: var(--color-dark-blue-transparent);
     left: 1.313rem;
     top: 1.313rem;
     border-radius: .313rem;
@@ -574,7 +575,6 @@ h1,h2,h3,h4{
     font-size: 18px;
     font-weight: 500;
     line-height: 1.25rem;
-    color: var(--white);
 }
 
 .text-testimonials2{
@@ -582,7 +582,6 @@ h1,h2,h3,h4{
     font-size: 15px;
     font-weight: 500;
     line-height: 1rem;
-    color: var(--white);
 }
 
 .text-calltoaction{
