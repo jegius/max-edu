@@ -312,6 +312,7 @@ h1,h2,h3,h4{
     min-height: 39.25rem;
     background: linear-gradient(left, var(--white) 33%, var(--blue)33%);
     background: -moz-linear-gradient(left, var(--white) 33%, var(--blue)33%);
+    background: -webkit-linear-gradient(left, var(--white) 33%, var(--blue)33%);
     display: flex;
     align-items: center;
     justify-content: center;
